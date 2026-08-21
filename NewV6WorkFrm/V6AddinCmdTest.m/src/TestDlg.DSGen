@@ -1,0 +1,141 @@
+<DSxDevCodeGen
+  ExtensionName="DialogDesigner"
+  EngineVersion="1.0">
+  <Content
+    Version="1.1"
+    HasDesign="true">
+    <DesignModel>
+      <RootWidget
+        Type="CATDlgDialog"
+        ID="9a2b2fe7-6e60-488c-a317-8b9618dda3a9"
+        Version="1.0"
+        Name="TestDlg"
+        NoButtons="true"
+        Title="TestDlg">
+        <Children
+          Type="List">
+          <Item
+            Type="CATDlgFrame"
+            ID="qt-tree-table-host"
+            Version="1.0"
+            Name="QtTreeTableHost"
+            HideTitle="true"
+            HideFrame="true">
+            <GridLayoutConstraint
+              Row="0"
+              Col="0"
+              Width="1"
+              Height="1">
+              <Anchor
+                AttachedToLeft="true"
+                AttachedToRight="true"
+                AttachedToTop="true"
+                AttachedToBottom="true"
+                ConstantWidth="false"
+                ConstantHeight="false" />
+            </GridLayoutConstraint>
+            <Children
+              Type="List" />
+            <GridResizableData>
+              <ResizableRows
+                Type="List" />
+              <ResizableColumns
+                Type="List" />
+            </GridResizableData>
+          </Item>
+        </Children>
+        <GridResizableData>
+          <ResizableRows
+            Type="ScalarList"
+            Value="0;1" />
+          <ResizableColumns
+            Type="ScalarList"
+            Value="0;1" />
+        </GridResizableData>
+      </RootWidget>
+    </DesignModel>
+    <CodeModel>
+      <UserCodes>
+        <ClassIncludes>
+          <UserCode><![CDATA[
+            #include <windows.h>
+            #include "CATDlgFrame.h"
+
+]]></UserCode>
+        </ClassIncludes>
+        <ClassMembers>
+          <UserCode><![CDATA[
+public:
+CATDlgFrame *GetQtTreeTableHost()
+{
+    return _QtTreeTableHost;
+}
+
+]]></UserCode>
+        </ClassMembers>
+        <ImplementIncludes>
+          <UserCode><![CDATA[
+
+
+]]></UserCode>
+        </ImplementIncludes>
+        <DialogConstructor>
+          <UserCode><![CDATA[
+
+
+]]></UserCode>
+        </DialogConstructor>
+        <DialogDefaultConstructor>
+          <UserCode><![CDATA[
+
+
+]]></UserCode>
+        </DialogDefaultConstructor>
+        <DialogDestructor>
+          <UserCode><![CDATA[
+
+
+]]></UserCode>
+        </DialogDestructor>
+        <PreBuildCode>
+          <UserCode><![CDATA[
+
+
+]]></UserCode>
+        </PreBuildCode>
+        <BuildAdditionalCode>
+          <UserCode><![CDATA[
+
+
+]]></UserCode>
+        </BuildAdditionalCode>
+        <UserActivateCode
+          UserCode="" />
+        <UserDesactivateCode>
+          <UserCode><![CDATA[
+
+
+]]></UserCode>
+        </UserDesactivateCode>
+        <UserCancelCode>
+          <UserCode><![CDATA[
+
+
+]]></UserCode>
+        </UserCancelCode>
+        <UserImplementCode>
+          <UserCode><![CDATA[
+
+
+]]></UserCode>
+        </UserImplementCode>
+      </UserCodes>
+      <Callbacks
+        Type="List" />
+    </CodeModel>
+    <FileInfo
+      Visibility="Local"
+      HandleResources="true"
+      ModuleResources="" />
+  </Content>
+</DSxDevCodeGen>
